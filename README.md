@@ -5,7 +5,7 @@ Basic idea of well known Gambling game.
 To play the game:
 
 1. `git clone`
-2. run game.html
+2. run `game.html`
 3. hit `play` to start the game
 
 
@@ -24,7 +24,7 @@ Version-3(ver-3)
 
 
 
-Building of 2nd and 3rd Version will be started later..
+2nd and 3rd are yet to be devoloped.
 
 ### Really great if you can join me for this great project ;]
 
