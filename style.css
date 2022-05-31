@@ -1,0 +1,137 @@
+
+/* Specifying the size of every cards */
+card-t{
+  width: 100px;
+  height: 100px;
+}
+
+
+/* Background gradient for the game */
+body{
+  background-image: linear-gradient(to right top, #0e0000, #391e1f, #693536, #9c4e4f, #d36868);
+}
+
+/* Game Container */
+.game-container{
+  /* border: 1px solid black; */
+  padding: 30px;
+  width: 75%;
+  margin: 0 auto;
+  padding-bottom: 50px;
+}
+
+/* Header Content */
+
+.header-content{
+  /* border: 2px solid green; */
+  text-align: center;
+}
+
+.header-content h1{
+  font-size: 4.2em;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+  color: white;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+  margin-bottom: 5px;
+}
+
+.header-content h3{
+  font-size: 3em;
+  color: #5FC8AD;
+  font-weight: bold;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+/* Game Board */
+
+.game-board{
+  margin-top: 10px;
+  /* border: 2px solid blue; */
+  height: 440px;
+  background-image: linear-gradient(to right top, #2a521e, #426e36, #5b8a50, #75a86b, #90c787);
+  box-shadow: 10px 10px 6px 0px rgba(0,0,0,0.5);
+  -webkit-box-shadow: 10px 10px 6px 0px rgba(0,0,0,0.5);
+  -moz-box-shadow: 10px 10px 6px 0px rgba(0,0,0,0.5);
+  border-radius: 20px 20px 20px 20px;
+  -webkit-border-radius: 20px 20px 20px 20px;
+  -moz-border-radius: 20px 20px 20px 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.game-board div{
+  /* border-: 2px solid yellow; */
+  flex: 1;
+  padding: 10px;
+  text-align: center;
+}
+
+.game-board div h2{
+  color: #3F374C;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+  text-shadow: 1px 1px 0px rgba(58,27,215,0.73);
+}
+
+.cards-on{
+  border: 2px solid blue !important;
+  display: flex;
+  justify-content: space-around;;
+  flex-wrap: wrap;
+  flex: none !important;
+  padding: 5px !important;
+  height: 370px;
+}
+
+/* Game Status and Control */
+
+.game-decisions{
+  margin-top: 25px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  flex: 1;
+  /* border: 1px solid red; */
+}
+
+.game-controls{
+  /* border: 2px solid red; */
+  padding: 15px;
+}
+
+.player-stats{
+  /* border: 1px solid yellow; */
+}
+
+.btn{
+  margin: 20px !important;
+}
+
+div table{
+  margin-top: 20px;
+}
+
+/* Changes in Styling when Required */
+
+.busted{
+  color: #CD0808 !important;
+  font-family: 'Brush Script MT', cursive !important;
+}
+
+.blackjacked{
+  color: black !important;
+  font-family: 'Brush Script MT', cursive !important;
+}
+
+.lost{
+  color: red !important;
+}
+
+.won{
+  color: green !important;
+}
+
+.draw{
+  color: #4D405F !important;
+}

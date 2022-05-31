@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Black Jack</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Card Generator -->
+    <script src="cardmeister.github.io-master/elements.cardmeister.full.js"></script>
+
+    <!-- BOOTSTRAP CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+  </head>
+
+  <body>
+
+    <div class="game-container">
+
+      <header class="header-content">
+
+        <h1>BLACK JACK</h1>
+        <h3 id="gameStatus">Let's Play!!</h3>
+
+      </header>
+
+      <div class="game-board">
+
+        <!-- Player Board -->
+        <div id="player-board">
+
+          <h2>You: <span id="player-total">0</span></h2>
+
+          <div id="player-cards" class="cards-on">
+
+          </div>
+
+        </div>
+
+        <!-- Dealer Board -->
+        <div id="dealer-board">
+
+          <h2>Dealer: <span id="dealer-total">0</span></h2>
+
+          <div id="dealer-cards" class="cards-on">
+
+          </div>
+
+        </div>
+
+      </div>
+
+      <div class="game-decisions">
+
+        <div class="game-controls">
+
+          <button id="hit" class="btn btn-lg btn-primary" onclick="generateCardForPlayer()" disabled>HIT</button>
+          <button id="stand" class="btn btn-lg btn-warning" onclick="generateCardForDealer()" disabled>STAND</button>
+          <button id="deal" class="btn btn-lg btn-danger" onclick="startFromBegining()" disabled>DEAL</button>
+          <button id="play" class="btn btn-lg btn-info" onclick="startingCards()">PLAY</button>
+
+        </div>
+
+        <div class="player-stats">
+
+          <table class="table table-hover table-striped table-dark">
+
+            <tr>
+
+              <th>Won</th>
+              <th>Lost</th>
+              <th>Drew</th>
+
+            </td>
+
+            <tr>
+
+              <td id="win-ct">0</td>
+              <td id="loose-ct">0</td>
+              <td id="draw-ct">0</td>
+
+            </td>
+
+          </table>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </body>
+
+</html>
+
+<script src="index.js" charset="utf-8"></script>
+
+<!-- BOOTSTRAP JAVASCRIPT -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
