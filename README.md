@@ -2,6 +2,13 @@
 
 Basic idea of well known Gambling game.
 
+To play the game:
+
+1. `git clone`
+2. run game.html
+3. hit `play` to start the game
+
+
 Varsion-1(ver-1)
 
 > Simple Rules and Design with `ES6, CSS, HTML`
@@ -13,6 +20,9 @@ Version-2(ver-2)
 Version-3(ver-3) 
 
 > With Online Multi-player ability and authentication features
+
+
+
 
 Building of 2nd and 3rd Version will be started later..
 
