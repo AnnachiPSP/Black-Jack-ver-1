@@ -24,7 +24,7 @@ Version-3(ver-3)
 
 
 
-2nd and 3rd are yet to be devoloped.
+2nd and 3rd versions are yet to be devoloped.
 
 ### Really great if you can join me for this great project ;]
 
